@@ -2,6 +2,7 @@
 ## Project Overview
 This is a responsive product landing page built as a part of my sprint project. It is designed using HTML, CSS and Javascript.
 
+---
 ## Live Website
 https://prodesk-landing-page-six.vercel.app/
 
