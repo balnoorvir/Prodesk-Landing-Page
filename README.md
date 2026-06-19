@@ -3,7 +3,7 @@
 This is a responsive product landing page built as a part of my sprint project. It is designed using HTML, CSS and Javascript.
 
 ## Live Website
-https://balnoorvir.github.io/Prodesk-Landing-Page/
+https://prodesk-landing-page-six.vercel.app/
 
 ## Screenshots
 ### Hero Section
