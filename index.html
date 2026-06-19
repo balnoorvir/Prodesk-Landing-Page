@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prodesk IT - Digital Marketing Landing Page</title>
+    <link rel="icon" href="prodeskicon.png" type="image/x-png">
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script  src="darkmode.js" defer></script>
+</head>
+<body class="darkmode"><header>
+    <nav class="navbar">
+        <div class="hehe">
+            <a href="#"><img class="primary-icon" src="prodeskicon.png" alt="Prodesk IT Logo"></a>
+        </div>
+        <button id="theme-switch">
+            <span class="moon">🌙</span>
+            <span class="sun">☀️</span>
+        </button>
+        <ul class="nav-list" id="navi-list">
+            <li class="list-item">
+                <a href="#">Home</a>
+            </li>
+            <li class="list-item">
+                <a href="#">About</a>
+            </li>
+            <li class="list-item"> <a href="#">Services</a>
+            </li>
+            <li class="list-item">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+        <div class="menu" id="toggle-Button">
+<div class="menu-line"></div>
+<div class="menu-line"></div> 
+<div class="menu-line"></div>
+        </div>
+    </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="main-text">We Build Digital Experiences</h1>
+                <p style="font-size: 20px;">From data-driven marketing to innovative digital solutions, we empower businesses to grow their online presence, engage customers, and achieve measurable results.</p>
+                <a href="#" class="btn">Get Started</a>
+            </div>
+        </section>
+<section class="services">
+    <div class="container">
+        <h2 class="service-title">Our Services</h2>
+        <div class="split">
+            <div class="card">
+                <div class="icon">🔍</div>
+                <h3>SEO</h3>
+                <p>Improve your search engine rankings, increase organic traffic, and boost online visibility.</p>
+            </div>
+            
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Web Developement</h3>
+                <p>Complete web solutions including domains, hosting, business email, infrastructure, and responsive website developement.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📈</div>
+                <h3>Digital Marketing</h3>
+                <p>Drive growth through targeted campaigns, social media marketing, and lead generation strategies.</p>
+                    </div>
+    </div>
+    </div>
+</section>
+    </main>
+    <footer>
+            <div class="footer-bottom">
+<span class="copyright">&copy; 2026 Prodesk IT</span>
+<a href="https://instagram.com" class="socials">
+    <i class="fa-brands fa-instagram"></i>
+</a>
+<a href="https://linkedin.com" class="socials">
+    <i class="fa-brands fa-linkedin"></i>
+</a>
+<a href="https://facebook.com" class="socials">
+    <i class="fa-brands fa-facebook"></i>
+</a>
+            </div>
+    </footer>
+    <script>
+    const toggleButton= document.getElementById('toggle-Button')
+    const naviList = document.getElementById('navi-list')
+    toggleButton.addEventListener('click',() => {
+        naviList.classList.toggle('active');
+    })
+</script>
+</body>
+
+</html>
